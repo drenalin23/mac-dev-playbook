@@ -20,6 +20,7 @@
     - role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['mas']
+    - role: fubarhouse.macdock
 
   tasks:
     - include: tasks/ansible-setup.yml
